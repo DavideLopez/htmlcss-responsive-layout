@@ -313,3 +313,44 @@ li, a{
 /* FINE QUARTA SEZIONE */
 
 /* QUINTA SEZIONE */
+
+.aboutus-left{
+    color: black;
+}
+
+.aboutus-left h3{
+    font-size: 40px;
+    padding: 100px 0 50px;
+    color: #9792e4;
+}
+
+.aboutus-left p{
+    font-size: 2rem;
+}
+
+.row-aboutus{
+    display: flex;
+    gap: 200px;
+}
+
+.aboutus-right img{
+    width: 100%;
+    border-radius: 50%;
+    margin: 100px 0 20px ;
+}
+
+.aboutus-right p{
+    font-size: 2rem;
+    color: #9792e4;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.aboutus-right a{
+    background-color: #9792e4;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* FINE QUINTA SEZIONE */
+
