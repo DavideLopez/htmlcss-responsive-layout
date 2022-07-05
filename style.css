@@ -314,10 +314,6 @@ li, a{
 
 /* QUINTA SEZIONE */
 
-.aboutus-left{
-    color: black;
-}
-
 .aboutus-left h3{
     font-size: 40px;
     padding: 100px 0 50px;
@@ -326,6 +322,7 @@ li, a{
 
 .aboutus-left p{
     font-size: 2rem;
+    color: black;
 }
 
 .row-aboutus{
@@ -353,4 +350,77 @@ li, a{
 }
 
 /* FINE QUINTA SEZIONE */
+/* FOOTER */
 
+.footerpurple{
+    background-color:#9792e4;
+}
+
+.footerpurplecontent{
+    text-align: center;
+}
+
+.footerbeta{
+    padding: 30px;
+}
+
+.footerbutton a{
+    color: #9792e4;
+    padding: 30px 50px;
+    background-color: white;
+    border-radius: 35px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.footerbutton{
+    margin: 30px 0 30px 0;
+}
+
+.copyr p {
+    color: white;
+    padding: 30px 0 60px 0;
+}
+
+.copyr a{
+    text-decoration: underline;
+}
+
+.footerstart{
+    font-size: 1.25rem;
+    color: #D5D4F4;
+    padding: 60px 0 30px 0;
+}
+
+.simple{
+    color: white;
+    font-size: 3rem;
+}
+
+.freefooter{
+    font-size: 5rem;
+    color: #FDC15F;
+}
+
+.footerbeta{
+    color: white;
+}
+
+.footerdark{
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.darkfootertop{
+    padding: 40px 0 50px 0;
+}
+
+.darkfooterbot{
+    padding-bottom: 50px;
+}
+
+.darkfooterbot a{
+    color: #D5D4F4;
+    text-decoration: underline;
+}
