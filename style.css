@@ -50,22 +50,24 @@ li, a{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    flex-shrink:0;
 }
 
 .card{
     background-color: #B5DDFF ;
     border-radius: 20px;
-    margin: 10px 0;
+    text-align: center;
     border: 1px solid black;
-    
 }
 
 .card-big{
-    flex-grow: 1;
-    flex-basis: 1;
+    flex-basis: 70%;
     border-radius: 20px;
-    padding: 15px 15px 0 15px;
     display: flex;
+}
+
+.text-card{
+    width: 200px;
 }
 
 .text-card h2{
@@ -95,7 +97,8 @@ li, a{
 }
 
 .card-small{
-   padding: 25px;
+   padding: 20px;
+   flex-basis: 30%;
 }
 
 .card-small .text-card{
