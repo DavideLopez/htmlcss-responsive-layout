@@ -61,7 +61,7 @@ li, a{
 }
 
 .card-big{
-    flex-basis: 70%;
+    flex-basis: 60%;
     border-radius: 20px;
     display: flex;
 }
@@ -109,3 +109,74 @@ li, a{
     color: #0084FD;;
     font-size: 60px;
 }
+
+/* FINE CARDS */
+/* SECONDA SEZIONE */
+
+.sect2 {
+    background-color: #9593e6;
+    padding: 6.25rem 0 4rem 0;
+    margin-top: 100px;
+}
+
+.container-small {
+    max-width: 1000px;
+    padding: 0 1.9rem;
+    margin: auto;
+}
+
+.row-2 {
+    display: flex;
+    gap: 40px;
+}
+
+.col-plan {
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.second-plan-content {
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.second-plan {
+    align-self: flex-end;
+}
+
+.first-plan-content {
+    color: white;
+}
+
+.first-plan-content img {
+    margin-bottom: 6.25rem;
+    width: 100%;
+}
+
+.first-plan-content h3 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.second-plan-content img {
+    width: 60%;
+}
+
+.planning2text{
+ padding: 20px;
+}
+
+.second-plan-content i {
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 1.5rem 1.8rem;
+    background-color: #9593e6;
+}
+
+/* FINE SECONDA SEZIONE */
+/* TERZA SEZIONE */
