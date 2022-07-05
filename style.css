@@ -4,3 +4,36 @@
     box-sizing: border-box;
 }
 
+
+li, a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar{
+    background-color: #0084FD ;
+    padding: 1em;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.main-menu{
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.startbutton{
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: 1rem;
+}
