@@ -42,7 +42,7 @@ li, a{
 /* CARDS */
 
 .container-cards{
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 } 
 
@@ -51,6 +51,7 @@ li, a{
     flex-wrap: wrap;
     margin-top: 50px;
     flex-shrink:0;
+    gap: 30px;
 }
 
 .card{
@@ -61,7 +62,7 @@ li, a{
 }
 
 .card-big{
-    flex-basis: 60%;
+    flex-basis: 65%;
     border-radius: 20px;
     display: flex;
 }
@@ -98,7 +99,7 @@ li, a{
 
 .card-small{
    padding: 20px;
-   flex-basis: 30%;
+   flex-basis: 31%;
 }
 
 .card-small .text-card{
@@ -164,7 +165,7 @@ li, a{
 }
 
 .second-plan-content img {
-    width: 60%;
+    width: 55%;
 }
 
 .planning2text{
@@ -176,7 +177,67 @@ li, a{
     border-radius: 50px;
     padding: 1.5rem 1.8rem;
     background-color: #9593e6;
+    border-bottom: 30px;
 }
 
 /* FINE SECONDA SEZIONE */
 /* TERZA SEZIONE */
+
+.sect3text{
+    color: black;
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.row-test{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin: auto;
+    width: 940px;
+    gap: 30px;
+}
+
+.coltest{
+    background-color: #9593e6;
+    border-radius: 20px;
+    padding: 20px;
+    border-bottom: 30px;
+}
+
+.card-test{
+    display: flex;
+    line-height: 70px;
+}
+
+
+.card-test img{
+    width: calc(100% / 5);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.test-text{
+ color: white;
+}
+
+.testimonials{
+    padding-bottom: 40px;
+    font-size: 1.25rem;
+}
+
+.sect3subtitle{
+    padding-bottom: 40px;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #9593e6;
+}
+
+.sect3descr{
+    font-size: 1.25rem;
+}
+
+/* FINE TERZA SEZIONE */
